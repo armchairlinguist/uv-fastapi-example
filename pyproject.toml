@@ -7,5 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "anyio==4.14.0",
     "fastapi[standard]>=0.112.1",
+    "glances==4.0.8",
     "jupyter_server==2.20.0"
 ]
