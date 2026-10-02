@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic-postgresql-enum==1.10.0",
     "anyio==4.14.0",
     "apache-airflow==3.2.0",
     "fastapi[standard]>=0.112.1",
